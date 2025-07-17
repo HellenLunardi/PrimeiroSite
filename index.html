@@ -6,41 +6,325 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
+
   <body>
-    <section class="main-bg section">
-        <div class="main-content">
-            <h1>Flamengo</h1>
-            <p>Uma vez Flamengo Sempre Flamengo Flamengo sempre eu hei de ser
-                
-                É meu maior prazer vê-lo brilhar Seja na terra, seja no mar Vencer, vencer, vencer
-                
-                Uma vez Flamengo
-                Flamengo até morrer
-                
-                Na regata, ele me mata Me maltrata, me arrebata Que emoção no coração Consagrado no gramado Sempre amado, o mais cotado No Fla-Flu é o: Ai, Jesus!
-                
-                Eu teria um desgosto profundo Se faltasse o Flamengo no mundo   Ele vibra, ele é fibra  Muita libra já pesou
-                Flamengo até morrer eu sou
-            </p>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#">HOME</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#serviços">serviços</a></li>
+            <li><a href="#grid-one">grid-one</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#grid-two">grid-two</a></li>
+            <li><a href="#Pricing">Princing</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-space"></div>
+
+    <section id="intro" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text">
+          <h2>Seu pet merece o melhor</h2>
+          <p>
+            🐾Jully Pet - O Paraíso dos Patudos! 🐾 Bem-vindo à Jully Pet, onde
+            o seu animal de estimação é tratado como parte da família!
+            Oferecemos uma vasta gama de produtos e serviços para garantir que o
+            seu melhor amigo esteja sempre feliz, saudável e bem-cuidado.
+            Visite-nos na Jully Pet e deixe-nos ajudar a tornar a vida do seu
+            patudo ainda mais especial. Porque aqui, todos os dias são uma festa
+            para o seu amigo de quatro patas!
+          </p>
         </div>
+        <div class="intro-img">
+          <img
+            src="assets/img/animal.svg"
+            alt="uma mulher sentada de pernas
+          cruzadas no chão, em baixo de três árvores. Ao seu lado tem o seu gato
+          que é rosa."
+          />
+        </div>
+      </div>
     </section>
 
-    <section class="white-bg section">
-        <div class="main-content">
-            <h1>Flamengo</h1>
-            <p>Uma vez Flamengo Sempre Flamengo Flamengo sempre eu hei de ser
-                
-                É meu maior prazer vê-lo brilhar Seja na terra, seja no mar Vencer, vencer, vencer
-                
-                Uma vez Flamengo
-                Flamengo até morrer
-                
-                Na regata, ele me mata Me maltrata, me arrebata Que emoção no coração Consagrado no gramado Sempre amado, o mais cotado No Fla-Flu é o: Ai, Jesus!
-                
-                Eu teria um desgosto profundo Se faltasse o Flamengo no mundo   Ele vibra, ele é fibra  Muita libra já pesou
-                Flamengo até morrer eu sou
-            </p>
-        </div>
+    <section id="serviços" class="white-bg section">
+      <div class="main-content servicos-content">
+        <h2>Servicos</h2>
+        <p>
+          Sabemos o quanto é importante manter seu cão limpo e bem cuidado. É
+          por isso que oferecemos serviços completos de banho, que utilizam
+          produtos de alta qualidade para deixar o seu patudo com um pelo macio,
+          brilhante e cheiroso. Junto com o banho incluimos o corte de unhas e
+          limpeza de ouvidos.
+        </p>
+        <p>
+          Oferecemos uma variedade de serviços de tosas para atender às
+          necessidades específicas do seu cão. A tosa bebê, A tosa higiênica, e
+          para os cães que precisam de um novo visual completo, temos a tosa
+          completa.
+        </p>
+        <p>
+          Na Jully Pet's, oferecemos um serviço de busca e leva gratuito em
+          nossa região, tornando o cuidado com o seu animal de estimação ainda
+          mais conveniente para si. Para locais mais distantes, cobramos um
+          valor adicional, mas garantimos que o transporte do seu patudo seja
+          realizado com a máxima segurança e conforto. Confie no Jully Pet para
+          facilitar a vida do seu amigo de quatro patas
+        </p>
+      </div>
     </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">tosas</h2>
+        <p class="grid-description">breve descriçao</p>
+
+        <div class="grid">
+          <article>
+            <h3>Tosa</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Veritatis, temporibus? Accusamus quidem, non ad voluptatum
+              pariatur qui? Doloremque rem atque officia quis vel officiis nam
+              sit, voluptatum, ea inventore dolores.
+            </p>
+          </article>
+          <article>
+            <h3>Tosa</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              ratione nihil, veniam libero tempore nemo ullam molestiae deleniti
+              dolor ex itaque velit consequuntur perspiciatis temporibus dolore
+              voluptate, sit excepturi. Sequi.
+            </p>
+          </article>
+          <article>
+            <h3>Tosa</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              ratione nihil, veniam libero tempore nemo ullam molestiae deleniti
+              dolor ex itaque velit consequuntur perspiciatis temporibus dolore
+              voluptate, sit excepturi. Sequi.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">gallery</h2>
+        <p class="grid-description">breve descriçao</p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?r=6"
+              alt="dois cachorros marrons sem raça definida comendo grama"
+            />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=5" alt="random image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=4" alt="radom image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=3" alt="radom image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=2" alt="radom image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=1" alt="radom image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">tosas</h2>
+        <p class="grid-description">breve descriçao</p>
+
+        <div class="grid">
+          <article>
+            <h3>Tosa</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Veritatis, temporibus? Accusamus quidem, non ad voluptatum
+              pariatur qui? Doloremque rem atque officia quis vel officiis nam
+              sit, voluptatum, ea inventore dolores.
+            </p>
+          </article>
+          <article>
+            <h3>Tosa</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              ratione nihil, veniam libero tempore nemo ullam molestiae deleniti
+              dolor ex itaque velit consequuntur perspiciatis temporibus dolore
+              voluptate, sit excepturi. Sequi.
+            </p>
+          </article>
+          <article>
+            <h3>Tosa</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              ratione nihil, veniam libero tempore nemo ullam molestiae deleniti
+              dolor ex itaque velit consequuntur perspiciatis temporibus dolore
+              voluptate, sit excepturi. Sequi.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="Pricing" class="white-bg section">
+      <div class="main-content servicos-content">
+        <h2>pricing</h2>
+        <p>
+          Sabemos o quanto é importante manter seu cão limpo e bem cuidado. É
+          por isso que oferecemos serviços completos de banho, que utilizam
+          produtos de alta qualidade para deixar o seu patudo com um pelo macio,
+          brilhante e cheiroso. Junto com o banho incluimos o corte de unhas e
+          limpeza de ouvidos.
+        </p>
+        <p>
+          Oferecemos uma variedade de serviços de tosas para atender às
+          necessidades específicas do seu cão. A tosa bebê, A tosa higiênica, e
+          para os cães que precisam de um novo visual completo, temos a tosa
+          completa.
+        </p>
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Princing table
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>content 1</td>
+                <td>content 2</td>
+                <td>content 3</td>
+                <td>content 3</td>
+                <td>content 3</td>
+              </tr>
+              <tr>
+                <td>content 1</td>
+                <td>content 2</td>
+                <td>content 3</td>
+                <td>content 3</td>
+                <td>content 3</td>
+              </tr>
+              <tr>
+                <td>content 1</td>
+                <td>content 2</td>
+                <td>content 3</td>
+                <td>content 3</td>
+                <td>content 3</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text contact-text">
+          <h2>Contact us</h2>
+          <p>
+            🐾Jully Pet - O Paraíso dos Patudos! 🐾 Bem-vindo à Jully Pet, onde
+            o seu animal de estimação é tratado como parte da família!
+            Oferecemos uma vasta gama de produtos e serviços para garantir que o
+            seu melhor amigo esteja sempre feliz, saudável e bem-cuidado.
+            Visite-nos na Jully Pet e deixe-nos ajudar a tornar a vida do seu
+            patudo ainda mais especial. Porque aqui, todos os dias são uma festa
+            para o seu amigo de quatro patas!
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="assets/img/contact.svg"
+            alt="contato."
+          />
+        </div>
+
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend> contact us </legend>
+            <div class="form-group">
+              <label for="first-name">First Name</label> 
+              <input type="text"
+               name="first-name" 
+               id="first-name"
+               placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last Name</label> 
+              <input type="text"
+               name="last-name" 
+               id="last-name"
+               placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label> 
+              <input type="email"
+               name="email" 
+               id="email" placeholder="Your e-mail">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message</label> 
+              <textarea name="message" 
+              id="message" 
+              cols="30" rows="10" placeholder="Your e-mail" ></textarea >
+            </div>
+
+            <div class="form-group">
+              <button type="submit">Send Message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+      <footer id="footer" class=" footer white-bg">
+        <p><a href="#">feito por Hellen</a></p>
+      </footer>
+
+      <a class="back-to-top" href="#">➤</a>
   </body>
 </html>
